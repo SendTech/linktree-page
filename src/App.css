@@ -13,7 +13,6 @@
 body {
     background-color: var(--dark-color);
     scroll-behavior: smooth;
-    overflow: hidden;
 }
 
 .logoContainer {
@@ -21,7 +20,7 @@ body {
     flex-direction: column;
     width: 100%;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .logo {
@@ -45,11 +44,11 @@ body {
 
 .RedesList {
     width: 40%;
-    margin: 80px auto;
+    margin: 30px auto;
 }
 
 .RedesItem {
-    margin: 25px;
+    margin: 25px 0;
     list-style: none;
 }
 
@@ -88,20 +87,106 @@ body {
     margin: auto;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 425px){
+@media screen and (max-width: 1024px) and (min-width:800px){
+    .logoContainer {
+        margin: 40px 0;
+    }
+    .logo {
+        width: 250px;
+    }
+    .title {
+        font-size: 30px;
+    }
     .RedesList {
         width: 80%;
     }
+    .RedesButton {
+        height: 95px;
+        margin: 50px 0;
+    }
     .TextButton {
-        font-size: 35px;
+        font-size:40px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 800px) and (min-height: 550px) {
     .RedesList {
-        width: 95%;
+        width: 80%;
+    }
+    .RedesButton {
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .logoContainer {
+        margin-top: 10px;
+    }
+    .logo {
+        width: 150px;
+    }
+    .RedesList {
+        width: 90%;
+        margin-top: 40px;
+    }
+    .RedesItem {
+        margin: 30px 0;
+    }
+    .RedesButton {
+        height: 65px;
+        gap: 0px;
     }
     .TextButton {
-        font-size: 50px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 375px) and (max-height: 812px) {
+    .logoContainer {
+        margin: 30px 0;
+    }
+    .logo {
+        width: 200px;
+    }
+    .RedesButton {
+        margin: 25px 0;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .logoContainer {
+        margin-top: 10px;
+    }
+    .logo {
+        width: 150px;
+    }
+    .RedesList {
+        width: 85%;
+        margin-top: 30px;
+    }
+    .RedesItem {
+        margin: 20px 0;
+    }
+    .RedesButton {
+        height: 60px;
+    }
+    .TextButton {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo {
+        width: 130px;
+    }
+    .title {
+        font-size: 18px;
+    }
+    .RedesButton {
+        height: 55px;
+        margin: 10px 0;
+    }
+    .TextButton {
+        font-size: 22px;
     }
 }

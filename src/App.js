@@ -10,8 +10,8 @@ const appData = [
   {name: 'Instagram', link: 'https://instagram.com/SenderoTecnologico'},
   {name: 'Twitter', link: 'https://twitter.com/_SendTech'},
   {name: 'Discord', link: 'https://discord.gg/4FUtbhatAg'},
-  {name: 'YouTube', link: 'https://www.youtube.com/channel/UC9qwrWMA03Asi5H8IMrZC9A'},
-  {name: 'Podcast', link: 'https://open.spotify.com/show/0jjA3KBKLovYa8kvgCYs49'},
+  {name: 'YouTube', link: 'https://www.youtube.com/channel/UC9qwrWMA03Asi5H8IMrZC9A'}
+  // {name: 'Podcast', link: 'https://anchor.fm/sendero-tecnologico'}
 ]
 
 function App() {

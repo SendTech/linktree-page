@@ -144,6 +144,9 @@ body {
     .logoContainer {
         margin-top: 10px;
     }
+    .description {
+        display: none;
+    }
     .logo {
         width: 150px;
     }

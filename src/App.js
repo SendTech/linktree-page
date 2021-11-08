@@ -16,11 +16,13 @@ function App() {
   return (
     <>
     <Presentation></Presentation>
+    <main className="main">
       <RedesList>
       {appData.map(redes => (
           <RedesItem key={redes.name} text={redes.name} href={redes.link}/>
       ))}
       </RedesList>
+    </main>
     </>
   );
 }
